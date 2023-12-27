@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+nav
+{
+    background-color: orange;
+}
+#mn
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: white;
+    color: aqua;
+
+}
+#veg
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: azure;
+}
+#nonveg
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: azure;
+}
+#drinks
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: azure;
+}
+#v:hover #veg
+{
+    display: block;
+}
+#nv:hover #nonveg
+{
+    display: block;
+}
+#dr:hover #drinks
+{
+    display: block;
+}

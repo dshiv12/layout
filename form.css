@@ -1,0 +1,14 @@
+.fa-user{
+    position: absolute;
+    top: 10%;
+    left: 5.5%;
+}
+#fname-cont
+{
+    position: relative;
+}
+#fname
+{
+    height: 20px;
+    padding-left: 20px;
+}
